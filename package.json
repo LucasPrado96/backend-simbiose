@@ -1,0 +1,25 @@
+{
+  "name": "apisimbiose",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Simbiose API",
+  "main": "./server.js",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "author": "Lucas Prado",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bandcamp-scraper": "^1.5.0",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "puppeteer": "23",
+    "yarn": "^1.22.22"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "sucrase": "^3.35.0"
+  }
+}
